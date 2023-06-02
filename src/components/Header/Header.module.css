@@ -1,0 +1,24 @@
+.navMenu {
+    background-color: rgb(237, 237, 237);
+    border-radius: 6px;
+    padding: 20px 0;
+}
+
+.navList {
+    display: flex;
+    gap: 20px;
+    margin-left: 30px;
+}
+
+.nav_link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 15px;
+    border-radius: 6px;
+    background-color: rgb(184, 11, 11);
+}
+
+.nav_link.active {
+    color: aquamarine;
+}

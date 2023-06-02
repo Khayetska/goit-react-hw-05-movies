@@ -19,8 +19,14 @@ ul {
   list-style: none;
   padding-left: 0;
   margin: 0;
+  text-decoration: none;
 }
 
 img {
   display: block;
+}
+
+.conteiner {
+  margin: 0 20px;
+  margin-top: 2px;
 }

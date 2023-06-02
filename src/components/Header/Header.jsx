@@ -1,8 +1,8 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import css from './Home.module.css';
+import css from './Header.module.css';
 
-const { navMenu, navList, navItem } = css;
+const { navMenu, navList, navItem, nav_link } = css;
 
 function Header() {
   return (
@@ -10,10 +10,14 @@ function Header() {
       <nav className={navMenu}>
         <ul className={navList}>
           <li className={navItem}>
-            <NavLink to="/">Home</NavLink>
+            <NavLink to="/" className={nav_link}>
+              Home
+            </NavLink>
           </li>
           <li className={navItem}>
-            <NavLink to="/movies">Movies</NavLink>
+            <NavLink to="/movies" className={nav_link}>
+              Movies
+            </NavLink>
           </li>
         </ul>
       </nav>
